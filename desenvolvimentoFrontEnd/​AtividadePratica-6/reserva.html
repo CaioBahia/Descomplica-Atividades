@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reserva</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Reserva</legend>
+      <form>
+        <div>
+          <div id="personalInfo">
+            <div>
+              <label for="name">Nome:</label>
+              <br />
+              <input type="text" name="name" id="name" />
+            </div>
+            <br />
+            <div>
+              <label for="email">Email:</label>
+              <br />
+              <input type="email" name="email" id="email" />
+            </div>
+          </div>
+        </div>
+        <div id="ServicesCheckbox">
+          <p>Serviços Desejados:</p>
+          <div id="CheckboxOptions">
+            <input
+              type="checkbox"
+              id="compraPassagens"
+              name="compraPassagens"
+              value="compraPassagens"
+            />
+            <label for="compraPassagens">Compra de Passagens</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="reservaHospedagem"
+              name="reservaHospedagem"
+              value="reservaHospedagem"
+            />
+            <label for="reservaHospedagem">Reserva de Hospedagem</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="aluguelVeiculos"
+              name="aluguelVeiculos"
+              value="aluguelVeiculos"
+            />
+            <label for="aluguelVeiculos">Aluguel de Veículos</label>
+          </div>
+        </div>
+        <hr />
+        <div id="PaymentRadioButns">
+          <p>Forma de Pagamento:</p>
+          <div>
+            <input type="radio" id="credito" value="credito" />
+            <label for="credito">Cartão de Crédito</label>
+          </div>
+          <div>
+            <input type="radio" id="boleto" value="boleto" />
+            <label for="boleto">Boleto</label>
+          </div>
+          <div>
+            <input type="radio" id="Pix" value="Pix" />
+            <label for="Pix">PIX</label>
+          </div>
+        </div>
+        <hr />
+        <div id="PaymentConditions">
+          <label for="condition">Condições de Pagamento</label>
+          <br />
+          <br />
+          <select name="conditions" id="condition">
+            <option value="aVista">À Vista</option>
+            <option value="5x/sJuros">5x Sem Juros</option>
+            <option value="10x/cJuros">10x Com Juros</option>
+          </select>
+        </div>
+        <br />
+        <button type="submit">Enviar!</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
+
+<!-- Nome, Email, Serviços Desejados (uma caixa de seleção com opções como Compra de
+Passagens, Reserva de Hospedagem, Aluguel de Veículos), Forma de Pagamento (um
+botão de rádio com opções como Cartão de Crédito, Boleto, PIX) e Prazo de
+Pagamento (uma lista suspensa com opções como À Vista, Cinco Vezes Sem Juros,
+Dez Vezes Com Juros). -->
