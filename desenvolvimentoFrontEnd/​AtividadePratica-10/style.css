@@ -33,6 +33,35 @@ header {
   }
 }
 
+#first {
+  background: url("https://i.etsystatic.com/33102305/r/il/25cb59/3791622472/il_570xN.3791622472_3o81.jpg")
+    no-repeat;
+  background-size: cover;
+
+  object-position: 0 100%;
+  width: 100%;
+  height: 15.625rem;
+}
+#second {
+  width: 100%;
+  .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card {
+    max-width: 22.875rem;
+  }
+  .w-90 {
+    width: 90%;
+  }
+  img {
+    height: 160px;
+    width: 320;
+  }
+}
 footer {
   background-color: rgb(1, 6, 102);
   color: rgb(255, 123, 0);
