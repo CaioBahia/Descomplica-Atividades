@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+header {
+  background-color: rgb(1, 6, 102);
+  width: 100%;
+
+  h1 {
+    color: rgb(255, 123, 0);
+  }
+  button {
+    background-color: rgb(255, 123, 0);
+  }
+
+  .btn-primary {
+    background-color: rgb(255, 123, 0);
+    border-color: rgb(255, 123, 0);
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+  }
+
+  a:hover {
+    color: red;
+  }
+  .active {
+    color: rgb(255, 123, 0);
+  }
+}
+
+footer {
+  background-color: rgb(1, 6, 102);
+  color: rgb(255, 123, 0);
+  a {
+    text-decoration: none;
+    color: green;
+  }
+}
